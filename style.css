@@ -29,28 +29,19 @@ text-decoration: none;
 
 }
 #keret{
-<<<<<<< HEAD
     width: 900px;
-=======
-    width: 700px;
->>>>>>> a23e9cea4c3030abd83e827d017ba3a1955958cb
     margin: auto;
     padding: 10px;
 
 }
 p{
     color: white;
-<<<<<<< HEAD
    
     float: left;
-=======
-    text-align: left;
->>>>>>> a23e9cea4c3030abd83e827d017ba3a1955958cb
 }
 #pia-pizza{
     text-align:left ;
 
-<<<<<<< HEAD
 }
 #table{
     text-align: center;
@@ -63,14 +54,4 @@ p{
 li{
     border: 1px solid white;
     width: 50%;
-=======
-
-
-}
-#tabla{
-    border:10px solid;
-}
-#pizzaszoveg{
-    text-align: right;
->>>>>>> a23e9cea4c3030abd83e827d017ba3a1955958cb
 }
