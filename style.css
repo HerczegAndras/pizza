@@ -10,7 +10,11 @@
 }
 body{
     background-color: black;
+    color: white;
     
+}
+p{
+    width: 70%;
 }
 h2{
     color: white;
@@ -32,13 +36,10 @@ text-decoration: none;
     width: 900px;
     margin: auto;
     padding: 10px;
+    
 
 }
-p{
-    color: white;
-   
-    float: left;
-}
+
 #pia-pizza{
     text-align:left ;
 
@@ -51,7 +52,37 @@ p{
     text-align: center;
     
 }
-li{
-    border: 1px solid white;
-    width: 50%;
+
+#pizza-menu ul{
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
 }
+#pizza-menu li{
+    border: 1px solid white;
+    margin: 20px;
+    padding: 10px 50px;
+
+}
+#Foglalj{
+   
+    font-size: 20px;
+}
+#bal{
+    text-align: right;
+    width: 40%;
+    padding: 10px;
+    
+}
+#jobb{
+    text-align: left;
+    width: 60%;
+    padding: 10px;
+
+}
+#etterem{
+    display: flex;
+    width: 100%;
+    
+}
+
