@@ -97,8 +97,7 @@ text-decoration: none;
 #p-kep
 {
     width: 750px;
-    display: flex;
-    flex-direction: column
+   
 }
 #zt-kep
 {
@@ -120,6 +119,9 @@ text-decoration: none;
 }
 #e-kep{
     width: 300px;
+    height: 300px;
+    float: right;
+    padding: 20px;
 }
 #keret-hatter{
     background-color: #282424;
@@ -178,17 +180,20 @@ text-decoration: none;
     object-position: center;
 }
  
-.kicsikep {
+#kicsikep {
     width: 300px;
     height: 250px;
     object-fit: cover;
     object-position: center;
 }
  
-.szoveg {
+#kep-szoveg {
     position: relative;
     top: -25px;
     left:  50%;
     transform: translate(-50%, -50%);
     font-size: larger;
+}
+#nyitva-i{
+    text-align: center;
 }
