@@ -195,5 +195,29 @@ text-decoration: none;
     font-size: larger;
 }
 #nyitva-i{
-    text-align: center;
+    text-align:center ;
+    list-style-type: none;
+    object-position: center;
+    margin: auto;
+    height: 400px;
+    width: 300px;
+    
+}
+#nyitva-t{
+    
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: right;
+    width: 40%;
+    padding: 10px;
+}
+#nyitva-sz{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+#fenseges-e{
+    text-align: right;
+    object-position: right;
+    margin-right: auto;
 }
