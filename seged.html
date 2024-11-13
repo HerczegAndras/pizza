@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
+
+    <style>
+
+#keret-hatter{
+    background-color: #282424;
+    width: 100%;
+    margin: auto;
+    
+}
+#specialitasok{
+    color: white;
+    text-align: center;
+    
+}
+
+#grid-cont{
+    display: grid;
+        grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+    width: 500px;
+    
+}
+#p-kep
+{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+   
+}
+
+#p-kep img 
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+    </style>
 </head>
 <body>
+    <div id="keret-hatter">
+        <div id="specialitasok">
+            <h1>&#8213;Specialitások&#8213;</h1>
+            Az ízek tökéletes összhangja
+        <div id="grid-cont">
+            <div id="p-kep"><img src="image/47sa3d.jpg" alt="Pizza" ></div>
+            
+            <!--
+            <img src="image/02ds48.jpg" alt="Vörösboros Marhapecsenye" id="Vm-kep" >
+    
+            //-->
+            <!-- <img src="image/3e3nj7.jpg" alt="Vegyes zölségtál olívával" id="kicsikep" >
+            
+            <img src="image/183g7n.jpg" alt="Pizza" id="kicsikep">
+            
+            <img src="image/38px0d.jpg" alt="Előétel" id="e-kep"> -->
+           
+    
+    
+    
+        </div>
+        </div>
+    </div>
     
 </body>
 </html>
