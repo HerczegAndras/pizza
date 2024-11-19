@@ -100,6 +100,7 @@ text-decoration: none;
 #specialitasok{
     color: white;
     text-align: center;
+    height: 700px;
     
 }
 
@@ -282,5 +283,30 @@ footer{
 li{
     text-align: left;
 }
+#grid-szoveg{
+    position: relative;
+    top: -15;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: small;
+}
+@media screen and (max-width: 1140px) 
+{ .head-sz
+    {
+        clear: center;
+    }
 
+}
+@media screen and (max-width:350) 
+{#bal
+    {
+        
+        clear: left;
+    }
+#jobb
+    {
+        
 
+    }
+    
+}
