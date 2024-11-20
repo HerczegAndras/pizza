@@ -290,23 +290,26 @@ li{
     transform: translate(-50%,-50%);
     font-size: small;
 }
-@media screen and (max-width: 1140px) 
+@media screen and (max-width: 1140) 
 { .head-sz
     {
-        clear: center;
+        text-align: center;
+    }
+    #specialitasok{
+        display: block;
+        clear: left;
+
     }
 
 }
-@media screen and (max-width:350) 
-{#bal
-    {
-        
-        clear: left;
+@media screen and (min-width:350) {
+    #Szeretettel{
+        text-align: center;
     }
-#jobb
-    {
-        
+    
+#nyitva-t{
+    display: block;
 
-    }
+}
     
 }
