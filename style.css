@@ -1,7 +1,8 @@
 #fejlec{
     background-image:url(image/fejlec.jpg) ;
-    width: 100%;
+    width: 98%;
     background-repeat: no-repeat;
+
     height: 400px;
    margin: auto;
 
@@ -107,10 +108,10 @@ text-decoration: none;
 
 #grid-cont{
     display: grid;
-    grid-template-columns: repeat(8, 120px);
+    grid-template-columns: repeat(8, 12vw);
     grid-template-rows: repeat(8, 50px);
     grid-gap: 25px;
-    width: 900px;
+    width: 90%;
     
 }
 
@@ -272,7 +273,7 @@ footer{
 }
 #lab-vonal{
    margin-left: 200px;
-   width: 900px;
+   width: 80%;
    
 }
 #Szeretettel{
@@ -290,26 +291,23 @@ li{
     transform: translate(-50%,-50%);
     font-size: small;
 }
-@media screen and (max-width: 1140) 
-{ .head-sz
-    {
-        text-align: center;
-    }
-    #specialitasok{
-        display: block;
-        clear: left;
 
-    }
 
-}
-@media screen and (min-width:350) {
-    #Szeretettel{
-        text-align: center;
+@media only screen and (max-width: 1140px) {
+    #keret{
+        width: 100%;
+        margin: auto;
     }
-    
-#nyitva-t{
-    display: block;
+    #keret-hatter{
+        width: 100%;
+        margin: auto;
+    }
+   
+}
+@media only screen and (max-width:1040px){
+    #grid-cont {
+       width:5vh;
+    }
+}
+   
 
-}
-    
-}
