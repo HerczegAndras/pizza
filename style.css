@@ -293,7 +293,7 @@ li{
 }
 
 
-@media only screen and (max-width: 1140px) {
+@media only screen and (max-width: 1190px) {
     #keret{
         width: 100%;
         margin: auto;
@@ -302,12 +302,31 @@ li{
         width: 100%;
         margin: auto;
     }
-   
+    #pizza-menu a{
+        width: 20%;
+    }
+    #grid-cont img{
+        width:80%;
+     }
+     body{
+        width: 100%;
+     }
+     #p2-kep{
+        grid-row-start: 6;
+        grid-row-end: 9;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        margin-left: 50px;
+}
 }
 @media only screen and (max-width:1040px){
     #grid-cont {
        width:5vh;
     }
 }
-   
+@media only screen and (max-width:1040px){
+    #grid-cont {
+       width:5vh;
+    }
+}
 
