@@ -92,7 +92,7 @@ text-decoration: none;
 }
 #etterem{
     display: flex;
-    width: 900px;
+    width: 90%;
     justify-content: center;
     text-align: center;
     margin: auto;
@@ -182,7 +182,7 @@ text-decoration: none;
     
 }
 #menu-keret{
-    width: 900px;
+    width: 90%;
     margin: auto;
 
 }
@@ -317,6 +317,16 @@ li{
         grid-column-start: 3;
         grid-column-end: 5;
         margin-left: 50px;
+}
+#Szeretettel{
+    float: left;
+    margin: 0;
+}
+#nyitva-t{
+    margin-left: auto;
+}
+hr{
+    width: 60%;
 }
 }
 @media only screen and (max-width:1040px){
