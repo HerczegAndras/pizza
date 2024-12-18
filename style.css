@@ -214,9 +214,7 @@ text-decoration: none;
 
 
  
-.kiskep {
-    
-}
+
  
 .jobboszlop {
     margin: 0;
@@ -266,7 +264,7 @@ text-decoration: none;
 
 }
 #fenseges-e{
-    width: 400px;
+    width: 100%;
     margin-left: 20px;
     
     
@@ -286,7 +284,7 @@ footer{
 #Szeretettel{
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
-    width: 150px;
+    width: 100%;
 }
 li{
     text-align: left;
@@ -401,25 +399,33 @@ li{
     #nyitva-t{
         display: block;
     }
-    #Szeretettel{
-        width: 20%;
-    }
+    
     
 
 }
-@media only screen and (max-width:400px)
+@media only screen and (max-width:550px)
 {
     #bal{
-        text-align: left;
-    
-        width: 40%;
+        text-align: right;
+    display: block;
+        width: 100%;
         padding: 10px;
         
     }
+    #etterem{
+        flex-direction: column;
+    }
+    #jobb p{
+        
+        width: 100%;
+
+    }
     #bal p{
-        margin-left: 100px;
+        text-align: right;
+        margin-left: 5%;
     }
     #jobb{
+        display: block;
         text-align: center;
         width: 100%;
         padding: 10px;
@@ -427,7 +433,47 @@ li{
     }
     #nyitva-t{
         display: block;
+        
+        margin-left: 0px;
     }
+    #pizza-menu ul{
+        display: block;
+        
+        
+        margin: 10px;
+    padding: 10px 20px;
+    margin-left:10%;
 
 
+    }
+    #pizza-menu li{
+        text-align: center;
+        
+    }
+    hr{
+        width: 80%;
+    }
+    .fenseges-e{
+        float: right;
+    }
+    #nyitva-sz{
+        
+        margin: 0px;
+    }
+    
+
+
+}
+@media only screen and (max-width:400px){
+
+    .nyitva-i{
+        margin: 0;
+        padding: 0;
+    }
+    .napok{
+        padding: 0;
+    }
+    .nyitva-t{
+        padding: 0px;
+    }
 }
