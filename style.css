@@ -188,9 +188,13 @@ text-decoration: none;
     
 }
 #menu-keret{
-    width: 90%;
+    width: 100%;
     margin: auto;
 
+}
+#keret{
+    width: 100%;
+    padding: 0px;
 }
 
 
@@ -256,6 +260,10 @@ text-decoration: none;
     padding: 30px 20%;
     
 }
+
+.offcanvas {
+    height: 400px !important;
+}
 #nyitva-sz{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
@@ -271,9 +279,7 @@ text-decoration: none;
     
    
 }
-#fenseges-e b{
-    text-decoration: underline;
-}
+
 footer{
     text-align: center;
     padding: 10px;
@@ -281,12 +287,12 @@ footer{
 
 }
 #lab-vonal{
-   margin-left: 20%;
+   margin-left: 10%;
    width: 80%;
    
 }
 #Szeretettel{
-    font-size: xx-large;
+    font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
 }
@@ -345,12 +351,11 @@ li{
     
   
 }
-.nav-link{
-    color: black !important;
-}
+
 }
 @media only screen and(max-width:768px)
 {
+   
     #bal{
         text-align: right;
     
@@ -409,6 +414,9 @@ li{
 }
 @media only screen and (max-width:550px)
 {
+    #keret{
+        width: 100%;
+    }
     #bal{
         text-align: right;
     display: block;
@@ -444,18 +452,20 @@ li{
         display: block;
         
         
-        margin: 10px;
+        
     padding: 10px 20px;
-    margin-left:10%;
+    
 
 
     }
     #pizza-menu li{
         text-align: center;
         
+        width: 100%;
+        
     }
     hr{
-        width: 80%;
+        width: 100%;
     }
     #fenseges-e{
         float: right;
@@ -488,7 +498,8 @@ li{
         margin: 0px;
     }
     #Szeretettel{
-        float: left;
+        
+        float: right;
     }
     #jobb{
         width: 100%;
@@ -496,6 +507,10 @@ li{
         margin: 0px;
        
         
+}
+#fenseges-e{
+    padding-bottom: 20px;
+    margin-top: 30px;
 }
 
 }
